@@ -8,6 +8,11 @@
 .nav-link:hover {
     color: #28a745;
 }
+input{
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
 @media screen and (min-width:1024px) {
     #section2 .card {
         padding: 4rem;
@@ -21,11 +26,35 @@
 @media screen and (min-width:768px) and (max-width:1023px){
     #section2  .card {
         padding: 2rem;
+        border: none;
     }
+    #section1 .card {
+        border: none;
+        color:white;
+    }
+    section > .col-12{
+        padding: 0;
+    }
+    #section3{
+        padding:1rem;
+    }
+    #section2 .col-12{
+        padding: 0;
+    }
+    section .row{
+        max-width: 100%;
+    }
+
 } 
 @media screen and (max-width:767px){
     #section2 .card{
         padding: 0 ;
     }
-    
+    #section1 .card {
+        border: none;
+        color:white;
+    }
+    #section3{
+        padding:1rem;
+    }
 }
