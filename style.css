@@ -1,16 +1,31 @@
-@media screen and (min-width:1024){
-    #section2 .card{
-        padding: 8rem 6;
+#section3 li {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #28a745;
+}
+@media screen and (min-width:1024px) {
+    #section2 .card {
+        padding: 4rem;
+        border: none;
+    }
+    #section1 .card {
+        border: none;
+        color:white;
     }
 }
-@media screen and (min-width:768px) and (max-width:1023){
-    #section2 .card{
+@media screen and (min-width:768px) and (max-width:1023px){
+    #section2  .card {
         padding: 2rem;
     }
-}
-
+} 
 @media screen and (max-width:767px){
     #section2 .card{
         padding: 0 ;
     }
+    
 }

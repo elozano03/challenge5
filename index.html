@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <div class="container col-12" style="padding: 0;">
+    <div class="container-fluid">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg bg-dark justify-content-between">
                 <a class="navbar-brand text-light" href="#">Progeny MMXIV</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -23,46 +23,46 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="d-flex " id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About</a>
+                            <a class="nav-link " href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Music</a>
+                            <a class="nav-link " href="#">Music</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Gigs<span class="sr-only">(current)</span></a>
+                            <a class="nav-link " href="#">Gigs<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Potos</a>
+                            <a class="nav-link " href="#">Potos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Videos</a>
+                            <a class="nav-link " href="#">Videos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="nav-link " href="#"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="nav-link " href="#"><i class="fab fa-twitter"></i></a>
                         </li>
+                        <form class="form-inline my-2 my-lg-0">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
         </header>
         <main>
             <div class="row flex-row-reverse">
                 <div class="col-12 col-lg-10">
-                    <section class="row d-flex" id="section1">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="images/nowell-featured-image-1038x576.jpg"
+                    <section class="row d-flex bg-dark" id="section1">
+                        <div class="col-12 col-md-6 col-lg-4 p-lg-0">
+                            <div class="card bg-dark">
+                                <img class="card-img-top w-100" src="images/nowell-featured-image-1038x576.jpg"
                                     alt="Card image cap">
                                 <div class="card-body">
                                     <h6>Blog</h6>
@@ -73,9 +73,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top " src="images/322267385_640.jpg" alt="Card image cap">
+                        <div class="col-12 col-md-6 col-lg-4 p-lg-0">
+                            <div class="card bg-dark">
+                                <img class="card-img-top " src="images/nowell-featured-image-1038x576.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h6>Blog</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up
@@ -85,9 +85,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="images/322267385_640.jpg" alt="Card image cap">
+                        <div class="col-12 col-md-6 col-lg-4 p-lg-0">
+                            <div class="card bg-dark">
+                                <img class="card-img-top" src="images/nowell-featured-image-1038x576.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h6>Blog</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up
@@ -105,7 +105,8 @@
                                 <img class="card-img-top" src="https://picsum.photos/id/866/600/300"
                                     alt="Card image cap">
                                 <div class="card-body">
-                                    <p class="card-text">Lorem, ipsum dolor <a href="#">sit amet consectetur</a> adipisicing elit. Quis,
+                                    <p class="card-text">Lorem, ipsum dolor <a href="#">sit amet consectetur</a>
+                                        adipisicing elit. Quis,
                                         ad nemo dolore non perspiciatis sequi ipsam, accusamus incidunt labore magni,
                                         totam debitis explicabo expedita. Doloremque rerum et velit recusandae culpa!
 
@@ -150,7 +151,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="card">
-                                        <img class="card-img-top" src="images/audiotheme-overview-video-thumbnail.jpg"
+                                        <img class="card-img-top w-100" src="images/audiotheme-overview-video-thumbnail.jpg"
                                             alt="Card image cap">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and
@@ -167,28 +168,28 @@
                 <div class="col-12 col-md-12 col-lg-2 bg-dark text-light">
                     <section class="row" id="section3">
                         <div class="col-12">
-                            <p>blabliblo</p>
+                            <p class="text-center text-secondary">twenty fourteen child theme</p>
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Credits</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">Credits</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Blog / News</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">Blog / News</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Style guide</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">Style guide</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Contact</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Try audio themes</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">Try audio themes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">GitHub</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">GitHub</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">WorldPress</a>
+                                    <a class="nav-link text-light btn-outline-success" href="#">WorldPress</a>
                                 </li>
                             </ul>
                             <input type="text" name="text" id="text" class="col-12" placeholder="Search ...">
@@ -217,7 +218,8 @@
                                     <a class="nav-link text-light" href="#">Modern Trade</a>
                                 </li>
                             </ul>
-                            <p class="text-secondary" style="padding: 2.5rem 0;">Elian met des "blabla" par flemme. By <a href="#" class="text-light">Damien</a></p>
+                            <p class="text-secondary" style="padding: 2.5rem 0;">Elian met des "blabla" par flemme. By
+                                <a href="#" class="text-light">Damien</a></p>
                         </div>
                     </section>
                 </div>
