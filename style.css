@@ -1,3 +1,16 @@
-.col-12 {
-    padding: 0;
+@media screen and (min-width:1024){
+    #section2 .card{
+        padding: 8rem 6;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023){
+    #section2 .card{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    #section2 .card{
+        padding: 0 ;
+    }
 }
